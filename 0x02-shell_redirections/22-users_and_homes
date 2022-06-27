@@ -1,2 +1,2 @@
 #!/bin/bash
-find -type f -name "*.gif" | cut -d '.' -f 2- 1 rev 1 LC_ALL=C sort -f
+cut -d":" -f 1,6 /etc/password | sort
